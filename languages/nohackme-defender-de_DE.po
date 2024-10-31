@@ -1,0 +1,675 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NoHackMe Defender\n"
+"POT-Creation-Date: 2024-05-17 12:56+0300\n"
+"PO-Revision-Date: 2024-05-17 12:57+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: nohackme-defender.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: ajax.php:10 ajax.php:40
+msgid "Parameters are specified incorrectly!"
+msgstr "Parameter sind falsch angegeben!"
+
+#: ajax.php:21 ajax.php:51 ajax.php:81
+msgid "List updated"
+msgstr "Liste aktualisiert"
+
+#: ajax.php:24
+msgid "File does not exist."
+msgstr "Datei existiert nicht."
+
+#: ajax.php:27 ajax.php:54 ajax.php:84
+msgid "This functionality is only available to administrators."
+msgstr "Diese Funktion steht nur Administratoren zur Verfügung."
+
+#: ajax.php:57
+msgid "Your session has expired. Please log in again on the website."
+msgstr ""
+"Ihre Sitzung ist abgelaufen. Bitte loggen Sie sich erneut auf der Website "
+"ein."
+
+#: ajax.php:70
+msgid "Invalid parameters specified!"
+msgstr "Ungültige Parameter angegeben!"
+
+#: ajax.php:87
+msgid "Your session has expired. Please log in to the website again."
+msgstr ""
+"Ihre Sitzung ist abgelaufen. Bitte loggen Sie sich erneut auf der Website "
+"ein."
+
+#: funcs.php:77
+msgid "premium"
+msgstr "Premium"
+
+#: funcs.php:83
+msgid ""
+"You are using a free version of the plugin. Some functions may be "
+"unavailable."
+msgstr ""
+"Sie verwenden eine kostenlose Version des Plugins. Einige Funktionen sind "
+"möglicherweise nicht verfügbar."
+
+#: funcs.php:85
+msgid "To purchase the paid version of the plugin"
+msgstr "Um den vollen Funktionsumfang des Plugins zu aktivieren"
+
+#: funcs.php:86
+msgid "go to the Premium tab"
+msgstr "Gehen Sie auf die Registerkarte Premium"
+
+#: funcs.php:105
+msgid ""
+"The plugin can automatically detect the visitor's country based on their IP "
+"address. To do this, download and place the SxGeo.dat and SxGeo.php files in "
+"the \"lib/geo\" folder located inside the plugin folder."
+msgstr ""
+"Das Plugin kann das Land des Besuchers anhand seiner IP-Adresse automatisch "
+"erkennen. Laden Sie dazu die SxGeo.dat- und SxGeo.php-Dateien herunter und "
+"legen Sie sie im Ordner \"lib/geo\" ab, der sich im Plugin-Ordner befindet."
+
+#: funcs.php:105
+msgid "These files can be downloaded from the"
+msgstr "Diese Dateien können von der"
+
+#: funcs.php:105
+msgid "official Sypex Geo project page"
+msgstr "offizielle Sypex Geo Projektseite"
+
+#: funcs.php:105
+msgid ""
+"Also, the archive with the SxGeo.dat and SxGeo.php files can be downloaded"
+msgstr ""
+"Außerdem kann das Archiv mit den SxGeo.dat und SxGeo.php Dateien "
+"heruntergeladen werden"
+
+#: funcs.php:105
+msgid "via this link"
+msgstr "über diesen Link"
+
+#: nohackme-defender.php:153 nohackme-defender.php:696
+msgid "Blocked IP"
+msgstr "Gesperrt"
+
+#: nohackme-defender.php:174
+msgid "IP unlocked"
+msgstr "IP entsperrt"
+
+#: nohackme-defender.php:193 nohackme-defender.php:590
+#: nohackme-defender.php:623 nohackme-defender.php:656
+msgid "IP"
+msgstr "IP"
+
+#: nohackme-defender.php:193
+msgid "Start of blocking"
+msgstr "Beginn der Sperrung"
+
+#: nohackme-defender.php:193 nohackme-defender.php:590
+#: nohackme-defender.php:623 nohackme-defender.php:656
+msgid "User country"
+msgstr "Land des Nutzers"
+
+#: nohackme-defender.php:193
+msgid "Blocking reason"
+msgstr "Grund für die Sperrung"
+
+#: nohackme-defender.php:193
+msgid "Actions"
+msgstr "Aktionen"
+
+#: nohackme-defender.php:218
+msgid "Exceeding the number of requests per minute"
+msgstr "Überschreitung der Anzahl der Anforderungen pro Minute"
+
+#: nohackme-defender.php:221
+msgid "Exceeding the number of requests in 10 minutes"
+msgstr "Überschreitung der Anzahl der Anfragen in 10 Minuten"
+
+#: nohackme-defender.php:224
+msgid "Exceeding the number of requests for 50 minutes"
+msgstr "Überschreitung der Anzahl der Anfragen um 50 Minuten"
+
+#: nohackme-defender.php:227
+msgid "Suspicious data in requests"
+msgstr "Verdächtige Daten in Anfragen"
+
+#: nohackme-defender.php:235
+msgid "Counter at the time of exceeding:"
+msgstr "Zähler zum Zeitpunkt der Überschreitung:"
+
+#: nohackme-defender.php:238
+msgid "Suspicious data:"
+msgstr "Verdächtige Daten in Anfragen"
+
+#: nohackme-defender.php:241
+msgid "Data:"
+msgstr "Daten:"
+
+#: nohackme-defender.php:252
+msgid "Delete"
+msgstr "Löschen"
+
+#: nohackme-defender.php:260
+msgid "Everything is fine. No one is blocked"
+msgstr "Alles ist in Ordnung. Niemand wird blockiert"
+
+#: nohackme-defender.php:263
+msgid ""
+"If you want to check if the plugin will block suspicious data, click this "
+"button:"
+msgstr ""
+"Wenn Sie überprüfen möchten, ob das Plugin verdächtige Daten blockiert, "
+"klicken Sie auf diese Schaltfläche:"
+
+#: nohackme-defender.php:264
+msgid "Block me"
+msgstr "Gesperrt"
+
+#: nohackme-defender.php:268
+msgid "List of suspicious requests"
+msgstr "Liste verdächtiger Anfragen"
+
+#: nohackme-defender.php:270
+msgid ""
+"In this section, all suspicious requests that the plugin searches for in the "
+"GET and POST parameters sent to the site are presented. When any of the "
+"presented requests are detected, the IP address is blocked."
+msgstr ""
+"In diesem Abschnitt werden alle verdächtigen Anfragen angezeigt, nach denen "
+"das Plugin in den Parametern GET und POST sucht, die an die Website gesendet "
+"werden. Wenn eine der angezeigten Anfragen erkannt wird, wird die IP-Adresse "
+"blockiert."
+
+#: nohackme-defender.php:277
+msgid "Changing the list is available only in the paid version"
+msgstr "Das Ändern der Liste ist nur in der kostenpflichtigen Version möglich"
+
+#: nohackme-defender.php:292
+msgid "Working with the list is only available in the paid version!"
+msgstr ""
+"Die Arbeit mit der Liste ist nur in der kostenpflichtigen Version verfügbar!"
+
+#: nohackme-defender.php:304 nohackme-defender.php:396
+#: nohackme-defender.php:489
+msgid "Value"
+msgstr "Wert"
+
+#: nohackme-defender.php:313 nohackme-defender.php:405
+#: nohackme-defender.php:498
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: nohackme-defender.php:314
+msgid "Add a row"
+msgstr "Zeile hinzufügen"
+
+#: nohackme-defender.php:318 nohackme-defender.php:410
+#: nohackme-defender.php:503
+msgid "Restore Defaults"
+msgstr "Standard wiederherstellen"
+
+#: nohackme-defender.php:325 nohackme-defender.php:416
+#: nohackme-defender.php:509
+msgid "Are you sure you want to restore the default list?"
+msgstr "Sind Sie sicher, dass Sie die Standardliste wiederherstellen möchten?"
+
+#: nohackme-defender.php:350
+msgid "List of suspicious requests not found"
+msgstr "Liste der verdächtigen Anfragen, die nicht gefunden wurden"
+
+#: nohackme-defender.php:357
+msgid "List of Google spider IP ranges"
+msgstr "Liste der Google-Spider-IP-Bereiche"
+
+#: nohackme-defender.php:359
+msgid ""
+"Ranges from this section are used to form a whitelist of IP addresses if the "
+"corresponding checkbox is checked in the plugin settings."
+msgstr ""
+"Bereiche aus diesem Abschnitt werden verwendet, um eine Whitelist von IP-"
+"Adressen zu erstellen, wenn das entsprechende Kontrollkästchen in den Plugin-"
+"Einstellungen aktiviert ist."
+
+#: nohackme-defender.php:366 nohackme-defender.php:459
+msgid "Changing the list is only available in the paid version"
+msgstr "Das Ändern der Liste ist nur in der kostenpflichtigen Version möglich"
+
+#: nohackme-defender.php:384
+msgid "Work with the list is available only in the paid version!"
+msgstr ""
+"Die Arbeit mit der Liste ist nur in der kostenpflichtigen Version verfügbar!"
+
+#: nohackme-defender.php:406 nohackme-defender.php:499
+msgid "Add row"
+msgstr "Zeile hinzufügen"
+
+#: nohackme-defender.php:440 nohackme-defender.php:533
+msgid "List of IP ranges not found"
+msgstr "Liste der IP-Bereiche nicht gefunden"
+
+#: nohackme-defender.php:447
+msgid "List of Yandex spider IP ranges"
+msgstr "Liste der Yandex-Spider-IP-Bereiche"
+
+#: nohackme-defender.php:449
+msgid ""
+"Ranges from this section are used to create a whitelist of IP addresses if "
+"the corresponding checkbox is checked in the plugin settings."
+msgstr ""
+"Bereiche aus diesem Abschnitt werden verwendet, um eine Whitelist von IP-"
+"Adressen zu erstellen, wenn das entsprechende Kontrollkästchen in den Plugin-"
+"Einstellungen aktiviert ist."
+
+#: nohackme-defender.php:452
+msgid ""
+"Актуальный список диапазонов адресов поисковых роботов Яндекс можно увидеть"
+msgstr ""
+"Актуальный список диапазонов адресов поисковых роботов Яндекс можно увидеть"
+
+#: nohackme-defender.php:452
+msgid "на этой странице"
+msgstr "на этой странице"
+
+#: nohackme-defender.php:477
+msgid "Working with the list is available only in the paid version!"
+msgstr ""
+"Die Arbeit mit der Liste ist nur in der kostenpflichtigen Version verfügbar!"
+
+#: nohackme-defender.php:540
+msgid "Top by blocking counters"
+msgstr "Toppen durch Blockieren von Theken"
+
+#: nohackme-defender.php:588
+msgid "For 50 minutes"
+msgstr "Für 50 Minuten"
+
+#: nohackme-defender.php:590 nohackme-defender.php:623
+#: nohackme-defender.php:656
+msgid "Views"
+msgstr "Ansichten"
+
+#: nohackme-defender.php:621
+msgid "For 10 minutes"
+msgstr "Für 10 Minuten"
+
+#: nohackme-defender.php:654
+msgid "One minute"
+msgstr "Eine Minute"
+
+#: nohackme-defender.php:685
+msgid "No data"
+msgstr "Keine Daten"
+
+#: nohackme-defender.php:697
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: nohackme-defender.php:698
+msgid "Suspicious requests"
+msgstr "Verdächtige Anfragen"
+
+#: nohackme-defender.php:699
+msgid "Google IP Ranges"
+msgstr "IP-Bereiche von Google"
+
+#: nohackme-defender.php:700
+msgid "Yandex IP Ranges"
+msgstr "Yandex IP-Bereiche"
+
+#: nohackme-defender.php:709
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Entschuldigung, Sie haben kein Zugriff auf diese Seite."
+
+#: nohackme-defender.php:721 nohackme-defender.php:1220
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: nohackme-defender.php:723
+msgid "Premium Features"
+msgstr "Premium Funktionen"
+
+#: nohackme-defender.php:725
+msgid "Other plugins"
+msgstr "Andere Plugins"
+
+#: nohackme-defender.php:727
+msgid "Website Development"
+msgstr "Website-Entwicklung"
+
+#: nohackme-defender.php:728
+msgid "SEO"
+msgstr "SEO"
+
+#: nohackme-defender.php:774
+msgid "Temporarily disable plugin"
+msgstr "Plugin vorübergehend deaktivieren"
+
+#: nohackme-defender.php:777
+msgid ""
+"If the checkbox is checked, the plugin will stop tracking and blocking IP "
+"addresses, and will also provide access to the site from IP addresses that "
+"are already blocked."
+msgstr ""
+"Wenn das Kontrollkästchen aktiviert ist, hört das Plugin auf, IP-Adressen zu "
+"verfolgen und zu blockieren, und ermöglicht auch den Zugriff auf die Website "
+"von IP-Adressen, die bereits blockiert sind."
+
+#: nohackme-defender.php:781
+msgid "Cancel current IP blocking if there is a GET parameter"
+msgstr "Aktuelle IP-Blockierung aufheben, wenn ein GET-Parameter vorhanden ist"
+
+#: nohackme-defender.php:783
+msgid ""
+"Specify the GET parameter that can be entered to remove the current IP from "
+"the list of blocked ones."
+msgstr ""
+"Geben Sie den GET-Parameter an, der eingegeben werden kann, um die aktuelle "
+"IP-Adresse aus der Liste der blockierten IP-Adressen zu entfernen."
+
+#: nohackme-defender.php:788
+msgid "For example:"
+msgstr "Zum Beispiel:"
+
+#: nohackme-defender.php:788 nohackme-defender.php:791
+msgid "Copy"
+msgstr "Kopieren"
+
+#: nohackme-defender.php:791
+msgid ""
+"That is, if this GET parameter is specified in the field, then in case of "
+"blocking your IP, you will be able to unblock it by opening the URL: "
+msgstr ""
+"Das heißt, wenn dieser GET-Parameter im Feld angegeben ist, können Sie im "
+"Falle einer Sperrung Ihrer IP-Adresse die Blockierung aufheben, indem Sie "
+"die URL öffnen: "
+
+#: nohackme-defender.php:798
+msgid "Message for blocked IPs"
+msgstr "Nachricht für blockierte IPs"
+
+#: nohackme-defender.php:815
+msgid "How many days to block IP"
+msgstr "Wie viele Tage soll die IP-Adresse blockiert werden"
+
+#: nohackme-defender.php:819
+msgid "Whitelists"
+msgstr "Weiße Listen"
+
+#: nohackme-defender.php:819
+msgid ""
+"Whitelists allow disabling the check for the number of requests to the site "
+"within a certain time period for specific IPs."
+msgstr ""
+"Whitelists ermöglichen es, die Überprüfung der Anzahl der Anfragen an die "
+"Website innerhalb eines bestimmten Zeitraums für bestimmte IPs zu "
+"deaktivieren."
+
+#: nohackme-defender.php:825
+msgid "Whitelist of IP addresses"
+msgstr "Whitelist von IP-Adressen"
+
+#. translators: %s: IP address of the current user
+#: nohackme-defender.php:828
+msgid "The specified IP addresses will not be blocked by the plugin."
+msgstr "Die angegebenen IP-Adressen werden vom Plugin nicht blockiert."
+
+#: nohackme-defender.php:828
+msgid "Each IP from a new line"
+msgstr "Jede IP-Adresse aus einer neuen Leitung"
+
+#: nohackme-defender.php:828
+#, php-format
+msgid "Your current IP: %s"
+msgstr "Ihre aktuelle IP-Adresse: %s"
+
+#. translators: %s: IP address of your site
+#: nohackme-defender.php:831
+#, php-format
+msgid "IP address of your site: %s"
+msgstr "IP-Adresse Ihrer Website: %s"
+
+#: nohackme-defender.php:837
+msgid "Do not block Google robots"
+msgstr "Google-Roboter nicht blockieren"
+
+#: nohackme-defender.php:840
+msgid "The list includes well-known IP address ranges of Google."
+msgstr "Die Liste enthält bekannte IP-Adressbereiche von Google."
+
+#: nohackme-defender.php:840 nohackme-defender.php:850
+msgid "Change the list of ranges"
+msgstr "Ändern der Liste der Bereiche"
+
+#: nohackme-defender.php:847
+msgid "Do not block Yandex robots"
+msgstr "Yandex-Roboter nicht blockieren"
+
+#: nohackme-defender.php:850
+msgid "The list of addresses is taken from the official Yandex page:"
+msgstr "Die Liste der Adressen stammt von der offiziellen Yandex-Seite:"
+
+#: nohackme-defender.php:857
+msgid "White list User Agent"
+msgstr "User Agent auf der Whitelist"
+
+#: nohackme-defender.php:859
+msgid ""
+"Requests with the specified User Agent will not be blocked by the plugin."
+msgstr ""
+"Anfragen mit dem angegebenen User Agent werden vom Plugin nicht blockiert."
+
+#: nohackme-defender.php:859
+msgid "View a list of popular User Agents"
+msgstr "Eine Liste beliebter User Agents anzeigen"
+
+#: nohackme-defender.php:859
+msgid ""
+"Each User Agent on a new line. It is not necessary to specify the entire "
+"User Agent - the plugin checks for the presence of the specified string in "
+"the request User Agent"
+msgstr ""
+"Jeder User-Agent in einer neuen Zeile. Es ist nicht notwendig, den gesamten "
+"User Agent anzugeben - das Plugin prüft, ob der angegebene String im User "
+"Agent der Anfrage vorhanden ist"
+
+#: nohackme-defender.php:859
+msgid ""
+"ATTENTION!!! An attacker can specify any User Agent for their request. Thus, "
+"they can easily pretend to be a Google or Yandex robot if you add these "
+"robots' User Agents to the whitelist."
+msgstr ""
+"AUFMERKSAMKEIT!!! Ein Angreifer kann einen beliebigen User Agent für seine "
+"Anforderung angeben. So können sie leicht vorgeben, ein Google- oder Yandex-"
+"Roboter zu sein, wenn Sie die Benutzeragenten dieser Roboter zur Whitelist "
+"hinzufügen."
+
+#: nohackme-defender.php:899
+msgid "Max number of requests"
+msgstr "Maximale Anzahl von Anfragen"
+
+#: nohackme-defender.php:902
+msgid "Per 1 minute"
+msgstr "Pro 1 Minute"
+
+#: nohackme-defender.php:904
+msgid "Block IP if there are this many or more requests within one minute"
+msgstr ""
+"IP blockieren, wenn es innerhalb einer Minute so viele oder mehr Anfragen "
+"gibt"
+
+#: nohackme-defender.php:909
+msgid "Per 10 minutes"
+msgstr "Pro 10 Minuten"
+
+#: nohackme-defender.php:911
+msgid "Block IP if there are this many or more requests within ten minutes"
+msgstr ""
+"IP blockieren, wenn es innerhalb von zehn Minuten so viele oder mehr "
+"Anfragen gibt"
+
+#: nohackme-defender.php:916
+msgid "Per 50 minutes"
+msgstr "Pro 50 Minuten"
+
+#: nohackme-defender.php:918
+msgid "Block IP if there are this many or more requests within fifty minutes"
+msgstr ""
+"IP blockieren, wenn es innerhalb von fünfzig Minuten so viele oder mehr "
+"Anfragen gibt"
+
+#: nohackme-defender.php:925 nohackme-defender.php:954
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: nohackme-defender.php:947
+msgid "License key"
+msgstr "Lizenzschlüssel"
+
+#: nohackme-defender.php:950
+msgid "Enter the license key to activate premium features."
+msgstr ""
+"Geben Sie den Lizenzschlüssel ein, um Premium-Funktionen zu aktivieren."
+
+#: nohackme-defender.php:960
+msgid "You have a paid version of the plugin."
+msgstr "Sie haben eine kostenpflichtige Version des Plugins."
+
+#: nohackme-defender.php:963
+msgid "Thank you for your purchase!"
+msgstr "Vielen Dank für Ihren Einkauf!"
+
+#: nohackme-defender.php:971
+msgid "The cost of the premium version of the plugin"
+msgstr "Die Kosten für die Premium-Version des Plugins"
+
+#: nohackme-defender.php:974
+msgid ""
+"For inquiries about purchasing the paid version of the plugin, write to the "
+"email"
+msgstr ""
+"Bei Fragen zum Kauf der kostenpflichtigen Version des Plugins schreiben Sie "
+"bitte an die E-Mail"
+
+#: nohackme-defender.php:981
+msgid ""
+"By purchasing the plugin, you will get the opportunity to use the following "
+"premium features:"
+msgstr ""
+"Mit dem Kauf des Plugins erhalten Sie die Möglichkeit, die folgenden Premium-"
+"Funktionen zu nutzen:"
+
+#: nohackme-defender.php:985
+msgid ""
+"The ability to add ranges of IP addresses belonging to Google and Yandex "
+"search engine crawlers to the whitelist with just two checkboxes."
+msgstr ""
+"Die Möglichkeit, IP-Adressbereiche von Google- und Yandex-Suchmaschinen-"
+"Crawlern mit nur zwei Kontrollkästchen zur Whitelist hinzuzufügen."
+
+#: nohackme-defender.php:988
+msgid "Edit the list of IP ranges owned by Google spiders."
+msgstr "Bearbeiten Sie die Liste der IP-Bereiche, die Google-Spidern gehören."
+
+#: nohackme-defender.php:991
+msgid "Edit the list of IP ranges owned by Yandex spiders."
+msgstr "Bearbeiten Sie die Liste der IP-Bereiche, die Yandex-Spidern gehören."
+
+#: nohackme-defender.php:994
+msgid ""
+"Edit the list of data that, when detected, the request is considered "
+"suspicious and its blocking is performed."
+msgstr ""
+"Bearbeiten Sie die Liste der Daten, bei denen die Anforderung als verdächtig "
+"eingestuft und blockiert wird."
+
+#: nohackme-defender.php:1129
+msgid ""
+"To work with the NoHackMe Defender plugin, you need to add the following "
+"lines to your wp-config.php file located in the root of the site:"
+msgstr ""
+"Um mit dem NoHackMe Defender-Plugin zu arbeiten, müssen Sie die folgenden "
+"Zeilen zu Ihrer wp-config.php-Datei hinzufügen, die sich im Stammverzeichnis "
+"der Website befindet:"
+
+#: nohackme-defender.php:1131
+msgid "Add them to the wp-config.php file after the line"
+msgstr "Fügen Sie sie der Datei wp-config.php nach der Zeile hinzu"
+
+#: nohackme-defender.php:1131
+msgid "(on the next line)"
+msgstr "(in der nächsten Zeile)"
+
+#: nohackme-defender.php:1132
+msgid "Unfortunately, it was not possible to do this automatically."
+msgstr "Leider war es nicht möglich, dies automatisch zu tun."
+
+#: nohackme-defender.php:1210
+#, php-format
+msgid ""
+"Before activating the premium version of the \"%s\" plugin, please remember "
+"to deactivate the free version."
+msgstr ""
+"Bevor Sie die Premium-Version des Plugins \"%s\" aktivieren, denken Sie "
+"bitte daran, die kostenlose Version zu deaktivieren."
+
+#: nohackme-defender_premium.php:6
+msgid "Changes saved."
+msgstr "Änderungen gespeichert."
+
+#. Plugin Name of the plugin/theme
+msgid "NoHackMe Defender"
+msgstr "NoHackMe Defender"
+
+#. Plugin URI of the plugin/theme
+msgid "https://needtome.com/nohackme/"
+msgstr "https://needtome.com/nohackme/"
+
+#. Description of the plugin/theme
+msgid ""
+"NoHackMe Defender ensures your WordPress site's safety by blocking IP "
+"addresses upon receiving suspicious requests or too many requests from a "
+"single IP in a certain period. Keep hackers at bay with efficient real-time "
+"monitoring and security enforcement. Sponsors of plugin development: <a "
+"href=\"https://malinovsky.io\">malinovsky.io</a>, <a href=\"https://gloap."
+"net\">gloap.net</a>, <a href=\"https://gloapm.com\">gloapm.com</a>, <a "
+"href=\"https://imgai.art\">imgai.art</a>"
+msgstr ""
+"NoHackMe Defender sorgt für die Sicherheit Ihrer WordPress-Seite, indem es "
+"IP-Adressen blockiert, wenn verdächtige Anfragen oder zu viele Anfragen von "
+"einer einzelnen IP in einem bestimmten Zeitraum eingehen. Halten Sie Hacker "
+"mit effizienter Echtzeitüberwachung und Sicherheitsdurchsetzung in Schach. "
+"Sponsoren der Plugin-Entwicklung: <a href=\"https://malinovsky."
+"io\">malinovsky.io</a>, <a href=\"https://gloap.net\">gloap.net</a>, <a "
+"href=\"https://gloapm.com\">gloapm.com</a>, <a href=\"https://imgai."
+"art\">imgai.art</a>"
+
+#. Author of the plugin/theme
+msgid "Parad0x <paraz0n3@gmail.com>"
+msgstr "Parad0x <paraz0n3@gmail.com>"
+
+#. Author URI of the plugin/theme
+msgid "https://www.linkedin.com/in/roman-klymenko-parad0x/"
+msgstr "https://www.linkedin.com/in/roman-klymenko-parad0x/"
+
+#~ msgid "enter license key"
+#~ msgstr "Lizenzschlüssel eingeben"
+
+#~ msgid "noHackMe Defender"
+#~ msgstr "noHackMe Verteidiger"
+
+#~ msgid "https://kra.name"
+#~ msgstr "https://kra.name"
